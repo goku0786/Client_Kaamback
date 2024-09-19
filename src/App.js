@@ -8,7 +8,8 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import { AuthProvider } from "./context/AuthContext";
 import PrivateRoute from "./components/PrivateRoute";
-import ProfessionalExperience from "./pages/HiringProcess";
+import HiringProcess from "./pages/Hiring/HiringProcess";
+import ApplicationReview from "./pages/Hiring/ApplicationReview";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
           {/* <Route path="/" element={<HomePage />} /> */}
-          <Route path="/" element={<ProfessionalExperience />} />
+          <Route path="/" element={<HiringProcess />} />
+          {/* <Route path="/" element={<ApplicationReview />} /> */}
         </Routes>
       </Router>
     </AuthProvider>
