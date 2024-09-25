@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import JobSeekerDashboard from "./JobSeekerDashboard";
+import JobSeekerProfile from "./JobSeekerProfile";
 
 function JobSeekerPage() {
   return (
-    <div className="bg-[#041893] md:h-screen flex">
-      <nav className="text-white flex flex-col md:w-1/5 w-2/5 items-center  justify-between  h-screen">
+    <div className="bg-[#041893] h-full lg:h-screen flex">
+      <nav className="text-white flex flex-col md:w-1/5 w-2/5 items-center  justify-between ">
         <ul className="flex flex-col text-center w-full gap-5 mt-5 px-5">
           <li className="text-xl font-bold">
             <Link to="/">KaamBack</Link>
@@ -30,7 +31,8 @@ function JobSeekerPage() {
         </ul>
       </nav>
       <div className="w-full bg-[#EAEBFF] rounded-l-2xl pb-10">
-           <JobSeekerDashboard/>
+           {/* <JobSeekerDashboard/> */}
+           <JobSeekerProfile/>
       </div>
     </div>
   );

@@ -67,7 +67,7 @@ function JobSeekerDashboard() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-5 bg-white rounded-lg p-5 ml-10 sm:w-4/5">
+      <div className="flex flex-col gap-5 bg-white rounded-lg p-5 ml-10 mr-5">
         <div className="flex justify-between">
           <span className="mb-5">
             <h2 className="text-lg font-semibold">Projects</h2>
@@ -83,7 +83,9 @@ function JobSeekerDashboard() {
             <p>Sriram Sarade</p>
             <p>CEO</p>
           </span>
-          <div className="bg-[#041893] px-3 py-1 pt-3 sm:pt-0 sm:w-1/6 text-center text-white rounded-full cursor-pointer">Completed</div>
+          <div className="bg-[#041893] flex items-center justify-center px-3 py-1 text-center text-white rounded-full cursor-pointer ">
+            Completed
+          </div>
         </div>
         <div className="flex justify-between">
           <span className="flex justify-between w-4/6 ">
@@ -91,7 +93,9 @@ function JobSeekerDashboard() {
             <p>Sriram Sarade</p>
             <p>CEO</p>
           </span>
-          <div className="border border-[#041893] px-3 py-1 pt-3 sm:pt-0 sm:w-1/6 text-center rounded-full cursor-pointer">Ongoing</div>
+          <div className="border border-[#041893] flex items-center justify-center px-4 py-1  rounded-full cursor-pointer ">
+            Ongoing
+          </div>
         </div>
       </div>
     </div>
